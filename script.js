@@ -109,6 +109,8 @@ items.forEach(item => {
 
     tagElement.className = 'tag';
     tagElement.textContent = tag;
+
+    tagsContainer.appendChild(tagElement);
 });
 
 shopItemsContainer.appendChild(newItem);
